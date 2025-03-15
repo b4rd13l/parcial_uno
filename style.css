@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+  
+.gameboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+  
+.color {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.celeste {
+    background-color: #00bcd4;
+  }
+  
+.violeta {
+    background-color: #9c27b0;
+}
+  
+.naranja {
+    background-color: #ff9800;
+}
+  
+.verde {
+    background-color: #4caf50;
+}
+  
+.btn-start {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.btn-start:hover {
+    background-color: #45a049;
+}
+  
